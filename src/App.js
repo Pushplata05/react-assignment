@@ -9,7 +9,7 @@ function App() {
 			.then(json => setData(json));
 	}, []);
 	return (
-		<div className="App">
+		<div className="App"> 
 			<h1>Github Pull Request</h1>
 			<table className='table'>
 				<thead>
